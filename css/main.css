@@ -13,7 +13,7 @@ div {
 }
 
 .btn {
-  background-color: black;
+  background-color: #000;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -28,13 +28,10 @@ div {
 }
 
 .btn-subtle {
-  background-color: grey;
+  background-color: #ccc;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
-  display: inline-block;
-  padding: 0.4em 0.75em 0.3em;
-  border-radius: 8px;
   border-width: 3px;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -43,13 +40,10 @@ div {
 }
 
 .btn-ghost {
-  background-color: white;
+  background-color: #fff;
   color: #000;
   margin-left: auto;
   margin-right: auto;
-  display: inline-block;
-  padding: 0.4em 0.75em 0.3em;
-  border-radius: 8px;
   border-width: 3px;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -60,13 +54,10 @@ div {
 }
 
 .btn-warning {
-  background-color: red;
+  background-color: #f33;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
-  display: inline-block;
-  padding: 0.4em 0.75em 0.3em;
-  border-radius: 8px;
   border-width: 3px;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
