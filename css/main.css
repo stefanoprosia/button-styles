@@ -13,54 +13,80 @@ div {
 }
 
 .btn {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
   display: inline-block;
-  padding: 0.4em 0.75em 0.3em;
+  padding: 0.4em 0.75em 0.60em;
   border-radius: 8px;
-  border-width: 3px;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  border: 3px;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  display: inline-block;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
 
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  border-width: 3px;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  font-size: 1.125rem;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+  display: inline-block;
 }
 
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  margin-left: auto;
-  margin-right: auto;
-  border-width: 3px;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   border-style: solid;
-  border-color: black;
+  border-color: #333;
+  font-size: 1.125rem;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  display: inline-block;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  border-width: 3px;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  font-size: 1.125rem;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+  display: inline-block;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-ghost {
+  background-color: #fff;
+}
+
+.btn-warning {
+  background-color: #f33;
 }
